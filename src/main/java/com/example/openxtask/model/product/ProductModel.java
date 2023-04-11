@@ -34,11 +34,4 @@ public class ProductModel {
     @JsonProperty("rating")
     private Rating rating;
 
-
-    public ProductModel (int id, double price){
-        this.id = id;
-        this.price = price;
-
-    }
-
 }

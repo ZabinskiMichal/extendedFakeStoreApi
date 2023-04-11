@@ -1,7 +1,5 @@
 package com.example.openxtask.service;
 
-import com.example.openxtask.model.product.ProductModel;
-import com.example.openxtask.model.product.Rating;
 import com.example.openxtask.model.user.Address;
 import com.example.openxtask.model.user.Geolocation;
 import com.example.openxtask.model.user.Name;

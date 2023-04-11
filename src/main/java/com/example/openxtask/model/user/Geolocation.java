@@ -18,12 +18,6 @@ public class Geolocation {
     private double longitude;
 
 
-//    public static double calculateDistance (Geolocation p1, Geolocation p2) {
-//        double dx = p2.getLatitude() - p1.getLatitude();
-//        double dy = p2.getLongitude() - p1.getLongitude();
-//        return Math.sqrt(dx * dx + dy * dy);
-//    }
-
     public static double calculateDistance (Geolocation p1, Geolocation p2) {
         double theta = p1.longitude - p2.longitude;
         double distance = 60 * 1.1515 * (180/Math.PI) * Math.acos(

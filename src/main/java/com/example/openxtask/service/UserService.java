@@ -1,9 +1,6 @@
 package com.example.openxtask.service;
 
-import com.example.openxtask.model.product.ProductModel;
-import com.example.openxtask.model.user.Address;
 import com.example.openxtask.model.user.Geolocation;
-import com.example.openxtask.model.user.Name;
 import com.example.openxtask.model.user.UserModel;
 import com.example.openxtask.shopClient.ShopClient;
 import com.fasterxml.jackson.core.JsonProcessingException;
@@ -13,7 +10,6 @@ import jakarta.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.math.BigDecimal;
 import java.util.List;
 
 @Service
@@ -72,7 +68,6 @@ public class UserService {
 
         return null;
     }
-
 
 
 }
